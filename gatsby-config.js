@@ -72,7 +72,8 @@ module.exports = {
           },
         ],
       },
-    }
+    },
+    `gatsby-plugin-minify`
     
   ],
 };

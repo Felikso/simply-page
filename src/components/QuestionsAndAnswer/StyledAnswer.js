@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { FaChevronUp } from "react-icons/fa";
+import { FaChevronUp } from "@react-icons/all-files/fa/FaChevronUp";
 
 export const StyledAnswerWrapper = styled.div`
   cursor: pointer;

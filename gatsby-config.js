@@ -73,7 +73,13 @@ module.exports = {
         ],
       },
     },
-    `gatsby-plugin-minify`
+    `gatsby-plugin-minify`,
+    {
+      resolve: "gatsby-plugin-webpack-bundle-analyser-v2",
+      options: {
+        devMode: true,
+      },
+    },
     
   ],
 };

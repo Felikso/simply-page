@@ -10,7 +10,7 @@ export const GlobalStyle = createGlobalStyle`
    }
 
    img{
-       height: auto;
-       width: auto;
+       height: 40px;
+       width: 100%;
    }
 `;

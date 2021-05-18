@@ -80,8 +80,9 @@ const IndexPage = () => {
       <Footer ref={[heroRef, aboutRef, servicesRef, questionsRef, contactRef]} /> */}
       <MainSection>
              <Header ref={[ heroRef, aboutRef, servicesRef, questionsRef, contactRef]} />
-             <HeroSection ref={[halfPage, heroRef]} contactRef={contactRef} />
-{/*              <OurBrands />
+             <HeroSection ref={[heroRef]} contactRef={contactRef} />
+             <OurBrands ref={halfPage} />
+{/*              
              {!isSSR && (
               <React.Suspense fallback={<p>XDDD</p>}>
                 <OurBrands />
